@@ -1,11 +1,13 @@
 import React from "react";
 import "./Navbar.scss";
+import {AiFillShopping} from "react-icons/ai";
+import logo from "../img/logo.png";
 
 const Navbar = () => {
   return(
   <div className="navbar">
     <div className="logo">
-      DSG
+      <img src={logo} alt="" />
     </div>
     <div className="leftnav">
       <ul>
@@ -20,7 +22,7 @@ const Navbar = () => {
         <li>ABOUT</li>
         <li>CONTACT US</li>
         <li>$0.00</li>
-        <li>shop icon</li>
+        <li><AiFillShopping style={{width:"20px",height:"20px",color:"black"}} /></li>
       </ul>
     </div>
   </div>

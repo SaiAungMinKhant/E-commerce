@@ -1,9 +1,12 @@
 .navbar{
-  background-color: yellow;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
   display: flex;
   height: 90px;
   align-items: center;
   padding: 10px;
+  margin-right: 20px;
 
   .logo{
     flex: 1;
