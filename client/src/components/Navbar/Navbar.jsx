@@ -22,7 +22,7 @@ const Navbar = () => {
         <li>ABOUT</li>
         <li>CONTACT US</li>
         <li>$0.00</li>
-        <li><AiFillShopping style={{width:"20px",height:"20px",color:"black"}} /></li>
+        <li><AiFillShopping style={{width:"20px",height:"20px",color:"white",cursor:"pointer"}} /></li>
       </ul>
     </div>
   </div>
