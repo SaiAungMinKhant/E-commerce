@@ -1,15 +1,10 @@
 .navbar{
-  background-color: #f6db90;
-  color: #F8FAF8;
-  font-weight: 500;
+  font-weight: 400;
+  color: gray;
   display: flex;
-  height: 90px;
+  height: 60px;
   align-items: center;
   padding: 10px;  
-
-  .logo{
-    flex: 1;
-  }
 
   .leftnav{
     flex: 2;
@@ -33,7 +28,12 @@
       padding-right: 10px;
 
       li{
-        list-style: none;
+        list-style-type: none;
+        padding: 0px 10px;
+        
+        .icons{
+          font-size: 1.5em;
+        }
       }
     }
   }

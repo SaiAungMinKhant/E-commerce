@@ -1,4 +1,4 @@
-import BtmFooter from "./components/Footer/BtmFooter";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Home from "./pages/Home/Home";
@@ -13,7 +13,7 @@ const Layout = () => {
     <div className="app">
       <Navbar />
       <Outlet />
-      <BtmFooter />
+      <Footer />
     </div>
   )
 }
